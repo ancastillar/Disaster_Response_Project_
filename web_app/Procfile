@@ -1,0 +1,1 @@
+web gunicorn disaster_response_app:app  --timeout 15000 

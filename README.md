@@ -28,12 +28,14 @@ Thirty-six classifiers were developed, using the Catboost algorithm. The lower m
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/models_clfs/ models/glove.6B.50d.txt`
- Note: You need stay into web_app file for run the above commands
+    - *Please uncompress the file with glove embedding to running the models*
+ 
  
 2. Run the following command in the app's directory to run your web app.
     `python app/run.py` or python/disaster_response_app.py
 
 3. Go to http://0.0.0.0:3001/
+
 
 
 ## Prerequisites
@@ -46,6 +48,6 @@ To install the flask app, you need:
 Install the packages with
 
 * pip install -r requirements.txt
-* Please uncompress the file with glove embedding to running the models
+
 ## Acknowledgements
 Thanks to Davivienda to support me through this course

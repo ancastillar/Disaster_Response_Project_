@@ -3,6 +3,7 @@
 In this project, an application was built to classify messages given by the user in one of the 36 categories. The algorithms used are Catboots, the metric used to evaluate each model was the AUC. On the other hand, it was found that some of the classes were too unbalanced, so to avoid overfitting in these algorithms, balancing techniques were used, in this case SMOTE.
 
 ## Link to Webapp http://disasterprojectappnatalia.herokuapp.com/
+![plot](./images_web_app/app_2.PNG)
 
 ## About this repository
 In this repository you will find:

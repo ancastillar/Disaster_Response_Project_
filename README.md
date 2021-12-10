@@ -46,6 +46,6 @@ To install the flask app, you need:
 Install the packages with
 
 * pip install -r requirements.txt
-
+* Please uncompress the file with glove embedding to running the models
 ## Acknowledgements
 Thanks to Davivienda to support me through this course
